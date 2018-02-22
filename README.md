@@ -1,6 +1,6 @@
-# `git-self-blame`
+# `git-no-blame`
 
-`git-self-blame` is a simple `git` plugin that lets you take the blame for code
+`git-no-blame` is a simple `git` plugin that lets you take the blame for code
 you didn't write.
 
 ## Motivation
