@@ -14,11 +14,12 @@ but even if it wasn't you:
 * Maybe you put pressure on deadlines that lead to the garbaginess.
 * ~~Maybe~~ you've written things **much, much worse**.
 
-Take some responsibility instead with `git self-blame`.
+Take some responsibility instead with `git no-blame`.
 
 > "You can put the blame on me."
 > —Akon, on his motto as a Linux kernel maintainer
 
+> Outdated image, Now has no name instead of your own
 ![It works, I swear.](https://user-images.githubusercontent.com/1114569/36355517-754d5ff0-14b2-11e8-9ca1-7a51150bca37.gif)
 
 ## Features
