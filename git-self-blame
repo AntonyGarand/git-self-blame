@@ -87,7 +87,7 @@ git blame --porcelain "$@" |
   sed 'N;s/\n//' |
   sort |
   uniq > $intermediate_tmpfile &&
-  paste -d ' ' <(for i in `seq 1 $(wc -l < $intermediate_tmpfile)`; do echo "$myself"; done) $intermediate_tmpfile > $mailmap_tmpfile
+  paste -d ' ' <(for i in `seq 1 $(wc -l < $intermediate_tmpfile)`; do echo " "; done) $intermediate_tmpfile > $mailmap_tmpfile
 
 # If we've completed our setup successfully, run `git blame` "for real"
 # with the temp `.mailmap` file we created. If the previous line exited
